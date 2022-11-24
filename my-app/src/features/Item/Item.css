@@ -1,0 +1,19 @@
+.itemGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    height: 50px;
+}
+
+.txt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.changebtn{
+    background-color: violet;
+}
+
+.buybtn{
+    background-color: aquamarine;
+}

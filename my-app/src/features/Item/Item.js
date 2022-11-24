@@ -13,7 +13,7 @@ export default function Inventory(props) {
     return (
       <div className='itemGrid'>
         <span className='txt'> Name: {props.item.name} </span>
-        <span className='txt'> Price: {props.item.price}  </span>
+        <span className='txt'> Price: {props.item.price} $</span>
         <input onChange={handlePriceChange} placeholder='new price'></input>
         <button className="changebtn" onClick={() => dispatch(changePrice({"name": props.item.name , "price": newPriceInput}))}>Change Price </button>
         <button className="buybtn" onClick={() => dispatch(buyItem(props.item.name))}>Buy Item</button>
